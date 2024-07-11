@@ -2,27 +2,34 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
+    margin: 0;
+    padding: 0;
   }
 
-header {
+  nav ul {
+    list-style: none;
     background-color: blueviolet;
+    color:aliceblue;
+    padding:0;
+    margin: 0;
     text-align: center;
-    padding: 10px;
-}
-
-nav {
-    background-color: blueviolet;
-    padding: 0;
-    border:0;
-    display: inline-block;
+    font-weight: 700;
 }
 
 nav a {
-    color:aliceblue;
-    padding:10px 30px 10px 30px;
     text-decoration: none;
-    text-align: center;
-    font-weight: 700;
+    color: white;
+    display: block;
+
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2.5%;
+
 }
 
 nav a:hover {
