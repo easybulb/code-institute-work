@@ -13,6 +13,7 @@ header {
 nav {
     background-color: blueviolet;
     padding: 0;
+    border:0;
     display: inline-block;
 }
 
@@ -28,4 +29,14 @@ nav a:hover {
     background-color: antiquewhite;
     color: purple;
     text-align: center;
+}
+
+.symbols-image {
+    width: 20%;
+    text-align: center;
+
+}
+
+img {
+    width: 100%;
 }
