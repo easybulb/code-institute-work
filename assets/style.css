@@ -38,12 +38,21 @@ nav a:hover {
     text-align: center;
 }
 
-.symbols-image {
+.cards {
+    float: left;
     width: 20%;
-    text-align: center;
+    margin-left: 10%;
+}
 
+.cards a {
+    text-align: center;
+    font-size: 30%;
 }
 
 img {
     width: 100%;
+}
+
+h2 {
+    text-align: center;
 }
